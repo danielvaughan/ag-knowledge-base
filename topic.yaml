@@ -1,0 +1,65 @@
+# topic.yaml — Topic Research Configuration
+# Antigravity 2.0 — Google's agentic development platform (IDE, SDK, CLI)
+# Tracking via current Gemini CLI channels until AG 2.0 goes public
+
+topic:
+  slug: "antigravity-2"
+  name: "Antigravity 2.0"
+  description: "Google's Antigravity 2.0 agentic development platform comprising an IDE, SDK, and CLI (replacing Gemini CLI) for AI-assisted software engineering."
+
+  target_audience:
+    primary: "Software engineers and engineering managers working with agentic software development."
+    secondary:
+      - "Developer advocates and platform teams teaching or standardising agentic tooling usage"
+      - "Technical leads evaluating agentic development platforms for their teams"
+    assumed_knowledge:
+      - "Software development fundamentals"
+      - "Familiarity with CLI-based development workflows"
+      - "Some experience with previous or competitive agentic tools (Claude Code, Codex)"
+      - "Working knowledge of LLM and agent concepts"
+    reader_goals:
+      - "Gain deep understanding of Antigravity 2.0 IDE, SDK, and CLI capabilities"
+      - "Learn effective workflows for agentic software development with Antigravity"
+      - "Understand how Antigravity CLI compares to and replaces Gemini CLI"
+      - "Master configuration, customisation, and advanced usage patterns"
+      - "Evaluate Antigravity 2.0 for team adoption and engineering workflow integration"
+
+  authoritative_sources:
+    documentation:
+      - "https://google-gemini.github.io/gemini-cli/docs/"
+    changelogs:
+      - "https://google-gemini.github.io/gemini-cli/docs/changelogs/"
+      - "https://github.com/google-gemini/gemini-cli/releases"
+    benchmarks: []
+    reference_pages:
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/commands.html"
+      - "https://github.com/google-gemini/gemini-cli"
+
+  content_paths:
+    knowledge_dir: "knowledge"
+    article_backlog: "articles/articles-backlog.yaml"
+    article_output_dir: "articles"
+    videos_file: "knowledge/resources/videos-to-review.md"
+
+  seed_sources:
+    reddit:
+      - "r/googlecloud"
+      - "r/GoogleGeminiAI"
+    youtube_channels:
+      - "@GoogleDevelopers"
+      - "@GoogleCloudTech"
+      - "@googledeepmind"
+    priority_youtube_channels:
+      - "@GoogleDevelopers"
+      - "@GoogleCloudTech"
+    youtube_videos:
+      - "https://www.youtube.com/watch?v=zEMXCoqJodE"
+    newsletters: []
+    blogs:
+      - "https://developers.googleblog.com"
+      - "https://blog.google/technology/ai/"
+    people:
+      - "Logan Kilpatrick"
+      - "Paige Bailey"
+
+  research_depth: "deep"
