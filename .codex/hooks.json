@@ -1,0 +1,16 @@
+{
+  "description": "Topic Research Pod hooks for consumer repositories.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .codex/hooks/commit-topic-research-changes.sh",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
