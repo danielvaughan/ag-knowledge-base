@@ -44,7 +44,9 @@ git ls-files -o --exclude-standard -z -- \
   "$knowledge_dir" \
   "$article_backlog" \
   "topic-research-pod/reports/topic-research" \
-  "reports/topic-research" > "$tmp_paths"
+  "topic-research-pod/reports/youtube-curation" \
+  "reports/topic-research" \
+  "reports/youtube-curation" > "$tmp_paths"
 
 if [[ ! -s "$tmp_paths" ]]; then
   exit 0
@@ -71,10 +73,10 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
-git commit -m "Add topic research findings"
+git commit -m "Add topic research and curation findings"
 
 if git rev-parse --abbrev-ref --symbolic-full-name '@{u}' >/dev/null 2>&1; then
   git push
 else
-  echo "Topic Research Pod hook: committed locally; no upstream branch configured." >&2
+  echo "Topic Research Pod hook: committed locally but no upstream branch configured." >&2
 fi

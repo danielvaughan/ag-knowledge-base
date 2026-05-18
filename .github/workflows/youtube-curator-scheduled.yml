@@ -1,0 +1,39 @@
+name: Scheduled YouTube Curator
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: knowledge-base-commit
+  cancel-in-progress: false
+
+jobs:
+  youtube-curator:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run YouTube curator
+        env:
+          AGENT_TOOLSDIRECTORY: ${{ runner.tool_cache }}
+          RUNNER_TOOL_CACHE: ${{ runner.tool_cache }}
+        run: ./scripts/youtube-curator.sh
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add YouTube curation findings [automated]"
+            git pull --rebase origin main
+            git push
+          fi

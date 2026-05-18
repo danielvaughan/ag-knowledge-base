@@ -47,6 +47,8 @@ Do not modify these files:
 - `AGENTS.md`
 - `.codex/hooks.json`
 - `.codex/hooks/commit-topic-research-changes.sh`
+- `.codex/settings.json`
+- `.codex/agents/`
 
 Do not write files outside `topic.content_paths.knowledge_dir` and the skill's report directory unless a skill explicitly authorises it.
 
