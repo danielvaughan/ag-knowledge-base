@@ -105,3 +105,23 @@ configuration. Model fallback occurs automatically on rate-limiting (pro → fla
 The `settings.json` format was reorganized. Automatic migration from the old
 format began 2025-09-17. See [v1 Configuration documentation](https://google-gemini.github.io/gemini-cli/docs/get-started/configuration-v1.html)
 for the previous format.
+
+## Token Caching and Cost Optimization
+
+Gemini CLI automatically optimizes API costs through token caching when using
+API key authentication (Gemini API key or Vertex AI). This feature reuses
+previous system instructions and context to reduce the number of tokens
+processed in subsequent requests.
+
+**Token caching is available for:**
+- API key users (Gemini API key)
+- Vertex AI users (with project and location setup)
+
+**Token caching is not available for:**
+- OAuth users (Google Personal/Enterprise accounts) — the Code Assist API
+  does not support cached content creation at this time
+
+View token usage and cached token savings using the `/stats` command. When
+cached tokens are available, they are displayed in the stats output.
+
+Source: [Token Caching and Cost Optimization documentation](https://google-gemini.github.io/gemini-cli/docs/cli/token-caching.html)
