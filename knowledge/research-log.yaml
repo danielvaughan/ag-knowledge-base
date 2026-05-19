@@ -1,1 +1,42 @@
-[]
+# Research Log — Antigravity 2.0
+# Managed by the topic-research skill. Do not edit manually.
+entries:
+  - date: "2026-05-19"
+    type: "deep-research"
+    description: "Initial knowledge base population from authoritative sources."
+    sources_fetched:
+      - "https://google-gemini.github.io/gemini-cli/docs/"
+      - "https://google-gemini.github.io/gemini-cli/docs/architecture.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/get-started/deployment.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/get-started/configuration.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/get-started/authentication.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/commands.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/enterprise.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/trusted-folders.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/checkpointing.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/custom-commands.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/tools/index.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/extensions/index.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/ide-integration/index.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/releases.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/quota-and-pricing.html"
+      - "https://api.github.com/repos/google-gemini/gemini-cli/releases"
+    notes_created:
+      - "knowledge/notes/01-overview-and-roadmap.md"
+      - "knowledge/notes/02-architecture.md"
+      - "knowledge/notes/03-cli-commands-and-tools.md"
+      - "knowledge/notes/04-configuration.md"
+      - "knowledge/notes/05-security-and-sandboxing.md"
+      - "knowledge/notes/06-mcp-extensions-and-enterprise.md"
+      - "knowledge/notes/07-installation-and-deployment.md"
+      - "knowledge/notes/08-authentication.md"
+    key_findings:
+      - "Antigravity 2.0 is currently distributed as Gemini CLI (NPM: @google/gemini-cli)."
+      - "Latest version: v0.44.0-nightly.20260518 (published 2026-05-18)."
+      - "Weekly release cadence with promotion flow: main → nightly → preview → stable."
+      - "Architecture: monorepo with two NPM packages (cli + core) plus tools in packages/core/src/tools/."
+      - "Supports stdio, HTTP, and SSE transports for MCP servers."
+      - "Extensions support prompts, MCP servers, and custom commands via TOML."
+      - "Trusted Folders and Checkpointing are security features disabled by default."
+      - "Enterprise deployment supports system-level configuration, tool allowlisting, and custom telemetry."
