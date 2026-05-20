@@ -262,3 +262,23 @@ entries:
       - "antigravity 2 agentic development IDE SDK CLI"
       - "antigravity 2 channel:GoogleDevelopers"
       - "antigravity 2 channel:GoogleCloudTech"
+
+- date: '2026-05-20'
+  type: gap-fill
+  description: 'Cycle 7 gap scan: comprehensive docs index comparison and seed source
+    investigation. All 30 documentation pages now have coverage. No new notes needed.'
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/
+  - https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/
+  - https://developers.googleblog.com/5-things-to-try-with-gemini-3-pro-in-gemini-cli/
+  - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
+  - https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/
+  - https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/
+  notes_created:
+  - (none — all docs pages already covered)
+  key_findings:
+  - All 30 documentation pages have corresponding notes or article backlog entries.
+  - No new releases since v0.43.0-preview.1 (2026-05-19).
+  - Three blog articles from May 19, 2026 already captured in note 25.
+  - SWE-bench score verified at 78% (agentic coding context) — no update needed.
+  - Manual release workflow docs are internal process — low priority for external audience.
