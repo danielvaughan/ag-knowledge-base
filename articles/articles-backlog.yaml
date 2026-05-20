@@ -197,3 +197,60 @@ articles:
       - ADK Python 2.0.0 GA alongside TypeScript, Go, Java, Kotlin support
       - Native streaming via Gemini Live API Toolkit
     added: "2026-05-20"
+
+# Added: 2026-05-20 research cycle (cycle 6)
+  - title: "Checkpointing — Undo Tool Execution Safely"
+    slug: "checkpointing-undo-tool-execution"
+    priority: medium
+    description: "Documentation of the Checkpointing feature that automatically saves a snapshot of your project's state before any file modifications by AI tools. Covers shadow Git snapshots, conversation history preservation, the /restore command, enabling via CLI flag or settings.json, and storage locations."
+    source_urls:
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/checkpointing.html"
+    key_points:
+      - Automatically creates checkpoints before file-modifying tool calls
+      - Shadow Git repository in ~/.gemini/history/<project_hash>
+      - /restore command lists and reverts to checkpoints
+      - Disabled by default; enable via --checkpointing flag or settings.json
+      - Stored locally; no data leaves the machine
+    added: "2026-05-20"
+
+  - title: "Trusted Folders — Enterprise Workspace Security"
+    slug: "trusted-folders-enterprise-security"
+    priority: high
+    description: "Documentation of the Trusted Folders security feature that controls which projects can use full Gemini CLI capabilities. Covers the trust dialog, safe mode restrictions for untrusted workspaces, management commands, and advanced trust check process. Critical for enterprise deployments."
+    source_urls:
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/trusted-folders.html"
+    key_points:
+      - Trust dialog on first run with three choices: trust, trust parent, don't trust
+      - Untrusted mode disables workspace settings, env vars, extension management, auto-acceptance, and memory loading
+      - Central trust rules file at ~/.gemini/trustedFolders.json
+      - IDE trust signal takes priority over local trust file
+      - Managed via /permissions command
+    added: "2026-05-20"
+
+  - title: "Gemini CLI Enterprise Deployment Guide"
+    slug: "enterprise-deployment-guide"
+    priority: high
+    description: "Comprehensive guide to deploying Gemini CLI in enterprise environments covering system-wide settings (system-defaults.json and system overrides), configuration precedence, centralized MCP server management, telemetry forwarding, tool allowlisting, and sandbox enforcement patterns."
+    source_urls:
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/enterprise.html"
+    key_points:
+      - System-wide settings file: system-defaults.json + system overrides settings.json
+      - Four-level configuration precedence: system defaults > user > workspace > system overrides
+      - Array and object settings (mcpServers, includeDirectories) are merged
+      - Enterprise patterns: forced Docker sandbox, tool allowlisting, telemetry forwarding
+      - Custom bug command routing and privacy controls
+    added: "2026-05-20"
+
+  - title: "MCP Server Setup Tutorial"
+    slug: "mcp-server-setup-tutorial"
+    priority: medium
+    description: "Step-by-step tutorial for setting up a Model Context Protocol (MCP) server with Gemini CLI, using the GitHub MCP server as the example. Covers Docker setup, PAT configuration, settings.json configuration, and verification."
+    source_urls:
+      - "https://google-gemini.github.io/gemini-cli/docs/cli/tutorials.html"
+    key_points:
+      - Tutorial uses GitHub MCP server as the primary example
+      - Prerequisites: Docker and GitHub PAT (classic or fine-grained)
+      - MCP configuration via mcpServers block in settings.json
+      - Environment variable injection for authentication tokens
+      - Security warning: fine-grained tokens recommended over broad PATs
+    added: "2026-05-20"
