@@ -178,3 +178,22 @@ articles:
       - Letta: Stateful social agent with persistent memory
       - mem0: Memory layer framework for AI applications
     added: "2026-05-20"
+
+  - title: "ADK 2.0 Deep Dive — Graph-Based Multi-Agent Workflows"
+    slug: "adk-2.0-deep-dive"
+    priority: high
+    description: "Comprehensive guide to ADK 2.0's three workflow paradigms: graph-based (deterministic routing), dynamic (iterative/conditional), and collaborative (coordinator + sub-agent) architectures. Covers all architecture primitives, language support matrix, runtime capabilities, and the shift from monolithic agents to structured multi-agent systems."
+    source_urls:
+      - "https://adk.dev/2.0/"
+      - "https://adk.dev/get-started/about/"
+      - "https://adk.dev/graphs/routes/"
+      - "https://adk.dev/workflows/collaboration/"
+      - "https://adk.dev/workflows/patterns/"
+    key_points:
+      - Graph-based workflows with route-based decision paths and data handling
+      - Dynamic workflows with iterative loops and conditional branching
+      - Collaborative workflows with coordinator and sub-agent delegation
+      - Key primitives: Agent, Tool, Callbacks, Session, Memory, Artifact, Planning
+      - ADK Python 2.0.0 GA alongside TypeScript, Go, Java, Kotlin support
+      - Native streaming via Gemini Live API Toolkit
+    added: "2026-05-20"

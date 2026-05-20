@@ -169,3 +169,31 @@ entries:
   - 'Dual artifact distribution: NPM packages and bundled gemini.js for npx.'
   - ADK site offers Python, TypeScript, and Go quickstarts.
   - No new releases since v0.43.0-preview.1 (2026-05-19).
+- date: '2026-05-20'
+  type: deep-research
+  description: 'Gap-fill research: ADK 2.0 GA release, Google Cloud Data Platform
+    Extensions, and article backlog update.'
+  sources_fetched:
+  - https://adk.dev/2.0/
+  - https://adk.dev/get-started/about/
+  - https://adk.dev/graphs/routes/
+  - https://adk.dev/workflows/collaboration/
+  - https://adk.dev/workflows/patterns/
+  - https://adk.dev/agents/llm-agents/
+  - https://adk.dev/agents/config/
+  - https://cloud.google.com/blog/products/databases/gemini-cli-extensions-for-google-data-cloud
+  notes_created:
+  - knowledge/notes/29-adk-2.0-ga-release.md
+  - knowledge/notes/30-google-cloud-data-platform-extensions.md
+  key_findings:
+  - ADK Python 2.0.0 GA released May 19, 2026 with graph-based workflows, dynamic
+    workflows, and collaborative workflows.
+  - Three workflow paradigms: deterministic graph routes, iterative dynamic logic,
+    and coordinator-subagent delegation.
+  - Core primitives expanded: Agent, Tool, Callbacks, Session, Memory, Artifact,
+    Code Execution, Planning, Models, Event, Runner.
+  - Multi-language support: Python, TypeScript, Go, Java, Kotlin.
+  - Google Cloud Data Platform extensions include 9 database extensions (AlloyDB,
+    BigQuery, Cloud SQL, Dataplex, Firestore, Looker, MySQL, Postgres, Spanner,
+    SQL Server) plus MCP Toolbox for 30+ data sources.
+  - Extensions announced via Google Cloud blog by Mandava and Karmarkar on 2025-09-24.
