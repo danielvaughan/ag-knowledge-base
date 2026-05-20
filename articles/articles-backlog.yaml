@@ -104,3 +104,77 @@ articles:
       - "https://www.reddit.com/r/GoogleGeminiAI/"
     note: "Seed source investigation pending. Requires manual browsing or targeted search."
     added: "2026-05-20"
+
+  # Added: 2026-05-20 research cycle (blog content)
+  - title: "Google Antigravity Platform — Agentic Development Platform Overview"
+    slug: "google-antigravity-platform"
+    priority: high
+    description: "Comprehensive overview of Google Antigravity: the Editor View (AI-powered IDE with tab completions and inline commands) and the Manager Surface (orchestrate multiple agents asynchronously). Covers Artifacts system for verification, use cases, and availability in public preview on MacOS/Windows/Linux with Gemini 3 Pro, Claude Sonnet 4.5, and GPT-OSS support."
+    source_urls:
+      - "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/"
+    key_points:
+      - Google Antigravity is an agentic development platform for orchestrating code
+      - Editor View: AI-powered IDE with tab completions and inline commands
+      - Manager Surface: spawn, orchestrate, and observe multiple agents asynchronously
+      - Artifacts system generates task lists, plans, screenshots, and browser recordings
+      - Available in public preview at no cost for individuals
+      - Supports Gemini 3 Pro, Claude Sonnet 4.5, and GPT-OSS
+    added: "2026-05-20"
+
+  - title: "ADK Long-Running Agents — Production-Grade Stateful AI Agents"
+    slug: "adk-long-running-agents"
+    priority: high
+    description: "Tutorial on building production-grade, long-running AI agents using the Agent Development Kit (ADK). Covers durable memory schemas, event-driven dormancy gates, multi-agent delegation, and a complete New Hire Onboarding Coordinator Agent example with Agents CLI scaffolding."
+    source_urls:
+      - "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/"
+      - "https://adk.dev/"
+      - "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/new-hire-onboarding"
+    key_points:
+      - Stateless agents break on real enterprise workflows (context pollution, token cost, hallucinations)
+      - Three architectural shifts: durable memory schemas, event-driven dormancy gates, multi-agent delegation
+      - Complete HR onboarding tutorial with Agents CLI scaffolding
+      - Source code available on GitHub
+    added: "2026-05-20"
+
+  - title: "Transitioning from Gemini CLI to Antigravity CLI — Sunset Timeline"
+    slug: "gemini-cli-to-antigravity-cli-transition"
+    priority: high
+    description: "Critical migration information: Gemini CLI sunset date of June 18, 2026 for Google AI Pro/Ultra and free tier users. Antigravity CLI is a Go-based platform with faster execution, async workflows, and unified architecture. Enterprise customers retain existing access. Migration docs and video walkthroughs available."
+    source_urls:
+      - "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
+    key_points:
+      - June 18, 2026: Gemini CLI stops serving requests for Google AI Pro/Ultra and free tier
+      - Antigravity CLI is Go-based with faster execution and async workflows
+      - Preserves Agent Skills, Hooks, Subagents, and Extensions (now plugins)
+      - Enterprise customers retain existing access via paid API keys
+      - Migration docs available at antigravity.google/docs/gcli-migration
+    added: "2026-05-20"
+
+  - title: "Gemini 3 Flash and Pro in Gemini CLI — Model Integration Guide"
+    slug: "gemini-3-in-gemini-cli"
+    priority: medium
+    description: "Coverage of Gemini 3 Flash availability in Gemini CLI (SWE-bench Verified score 78%, less than quarter cost of Gemini 3 Pro) and Gemini 3 Pro integration with five practical use cases. Includes access details, enablement steps, and practical examples."
+    source_urls:
+      - "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/"
+      - "https://developers.googleblog.com/5-things-to-try-with-gemini-3-pro-in-gemini-cli/"
+    key_points:
+      - Gemini 3 Flash: SWE-bench Verified score 78%, outperforms Gemini 3 Pro
+      - Available for paid tier users; gradual rollout for free tier
+      - Gemini 3 Pro: 5 practical use cases including code review, refactoring, documentation
+      - Enable via /settings toggle and /model command
+    added: "2026-05-20"
+
+  - title: "Real-World Agent Examples with Gemini 3 — Framework Integration Catalog"
+    slug: "gemini-3-agent-framework-integrations"
+    priority: medium
+    description: "Catalog of six open-source frameworks integrated with Gemini 3 for agentic workflows: ADK, Agno, Browser Use, Eigent, Letta, and mem0. Each includes example repositories and practical use cases."
+    source_urls:
+      - "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/"
+    key_points:
+      - ADK: Retail Location Strategy sample agent with Google Search and Maps
+      - Agno: Multi-agent system with memory, knowledge, and tools
+      - Browser Use: Multimodal form-filling AI agent
+      - Eigent: Enterprise browser automation using CAMEL framework
+      - Letta: Stateful social agent with persistent memory
+      - mem0: Memory layer framework for AI applications
+    added: "2026-05-20"

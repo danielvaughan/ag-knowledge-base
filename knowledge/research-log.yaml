@@ -101,3 +101,33 @@ entries:
   - 'v0.43.0-preview.1 is a cherry-pick patch for issue #27073.'
   - 'NPM workspaces manage two packages: @google/gemini-cli (UI + bundle) and @google/gemini-cli-core (API core).'
   - TOS/Privacy maps four auth methods to different legal frameworks (Google ToS, Cloud Terms, Gemini API Terms).
+
+- date: '2026-05-20'
+  type: deep-research
+  description: 'Gap-fill research: quotas/pricing note, Google Developers Blog seed source investigation (5 blog posts on Antigravity platform, ADK, Gemini CLI transition, Gemini 3 Flash/Pro integration, and agent framework examples), changelog review, and new backlog entries.'
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/quota-and-pricing.html
+  - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
+  - https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/
+  - https://developers.googleblog.com/5-things-to-try-with-gemini-3-pro-in-gemini-cli/
+  - https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/
+  - https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/
+  - https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/
+  - https://google-gemini.github.io/gemini-cli/docs/changelogs/
+  - https://api.github.com/repos/google-gemini/gemini-cli/releases
+  - https://api.github.com/repos/google-gemini/gemini-cli/tags
+  notes_created:
+  - knowledge/notes/24-quotas-and-pricing.md
+  - knowledge/notes/25-google-developers-blog-announcements.md
+  - knowledge/notes/26-google-developers-blog-antigravity-platform.md
+  key_findings:
+  - Quotas/pricing page documented with free tier, paid tier (Standard/Enterprise), and pay-as-you-go options across all auth methods.
+  - Google announced transition from Gemini CLI to Antigravity CLI with June 18, 2026 sunset date for non-enterprise users.
+  - Google Antigravity platform includes Editor View (AI IDE) and Manager Surface (multi-agent orchestration) with Artifacts verification system.
+  - Gemini 3 Flash achieves 78% SWE-bench Verified score, available at less than quarter cost of Gemini 3 Pro.
+  - Gemini 3 Pro in Gemini CLI: 5 practical use cases including code review, refactoring, documentation, and Cloud Run debugging.
+  - Six framework integrations showcased: ADK, Agno, Browser Use, Eigent, Letta, mem0.
+  - ADK tutorial covers durable memory schemas, event-driven dormancy gates, and multi-agent delegation for long-running agents.
+  - Changelog directory has weekly updates from v0.4.0 to v0.7.0 (last entry 2025-09-22).
+  - No new releases since v0.43.0-preview.1 (2026-05-19).
+  - Reddit seed sources require captcha-protected pages; YouTube channel listing requires JS rendering.
