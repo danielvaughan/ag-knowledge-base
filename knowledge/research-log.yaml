@@ -1,70 +1,103 @@
 # Research Log — Antigravity 2.0
 # Managed by the topic-research skill. Do not edit manually.
 entries:
-  - date: "2026-05-19"
-    type: "deep-research"
-    description: "Initial knowledge base population from authoritative sources."
-    sources_fetched:
-      - "https://google-gemini.github.io/gemini-cli/docs/"
-      - "https://google-gemini.github.io/gemini-cli/docs/architecture.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/get-started/deployment.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/get-started/configuration.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/get-started/authentication.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/cli/commands.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/cli/enterprise.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/cli/trusted-folders.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/cli/checkpointing.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/cli/custom-commands.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/tools/index.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/extensions/index.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/ide-integration/index.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/releases.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/quota-and-pricing.html"
-      - "https://api.github.com/repos/google-gemini/gemini-cli/releases"
-    notes_created:
-      - "knowledge/notes/01-overview-and-roadmap.md"
-      - "knowledge/notes/02-architecture.md"
-      - "knowledge/notes/03-cli-commands-and-tools.md"
-      - "knowledge/notes/04-configuration.md"
-      - "knowledge/notes/05-security-and-sandboxing.md"
-      - "knowledge/notes/06-mcp-extensions-and-enterprise.md"
-      - "knowledge/notes/07-installation-and-deployment.md"
-      - "knowledge/notes/08-authentication.md"
-    key_findings:
-      - "Antigravity 2.0 is currently distributed as Gemini CLI (NPM: @google/gemini-cli)."
-      - "Latest version: v0.44.0-nightly.20260518 (published 2026-05-18)."
-      - "Weekly release cadence with promotion flow: main → nightly → preview → stable."
-      - "Architecture: monorepo with two NPM packages (cli + core) plus tools in packages/core/src/tools/."
-      - "Supports stdio, HTTP, and SSE transports for MCP servers."
-      - "Extensions support prompts, MCP servers, and custom commands via TOML."
-      - "Trusted Folders and Checkpointing are security features disabled by default."
-      - "Enterprise deployment supports system-level configuration, tool allowlisting, and custom telemetry."
-
-  - date: "2026-05-20"
-    type: "deep-research"
-    description: "Gap-fill research: themes, token caching, telemetry, FAQ, memory tool, extension releasing."
-    sources_fetched:
-      - "https://google-gemini.github.io/gemini-cli/docs/cli/themes.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/cli/token-caching.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/cli/telemetry.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/faq.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/tools/memory.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/extensions/extension-releasing.html"
-      - "https://google-gemini.github.io/gemini-cli/docs/npm.html"
-    notes_created:
-      - "knowledge/notes/12-themes-and-customization.md"
-      - "knowledge/notes/13-token-caching.md"
-      - "knowledge/notes/14-telemetry-and-observability.md"
-      - "knowledge/notes/15-faq.md"
-      - "knowledge/notes/16-memory-tool.md"
-      - "knowledge/notes/17-extension-releasing.md"
-    key_findings:
-      - "12 built-in themes (6 dark + 6 light) with full custom theme support via settings.json."
-      - "Token caching works for API key and Vertex AI auth; not supported for OAuth."
-      - "Telemetry uses OpenTelemetry with Google Cloud, Jaeger, Prometheus, and Datadog support."
-      - "Custom metrics include command execution, tool usage, and chat compression counters."
-      - "GenAI semantic conventions compliant for token usage and operation duration."
-      - "Memory tool persists facts to ~/.gemini/GEMINI.md for cross-session recall."
-      - "Extensions distribute via git repos or GitHub releases; git repo is the recommended approach."
-      - "FAQ covers API 429 errors, Windows chmod issues, and Pro/Ultra subscription limits."
+- date: '2026-05-19'
+  type: deep-research
+  description: Initial knowledge base population from authoritative sources.
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/
+  - https://google-gemini.github.io/gemini-cli/docs/architecture.html
+  - https://google-gemini.github.io/gemini-cli/docs/get-started/deployment.html
+  - https://google-gemini.github.io/gemini-cli/docs/get-started/configuration.html
+  - https://google-gemini.github.io/gemini-cli/docs/get-started/authentication.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/commands.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/enterprise.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/trusted-folders.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/checkpointing.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/custom-commands.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/index.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html
+  - https://google-gemini.github.io/gemini-cli/docs/extensions/index.html
+  - https://google-gemini.github.io/gemini-cli/docs/ide-integration/index.html
+  - https://google-gemini.github.io/gemini-cli/docs/releases.html
+  - https://google-gemini.github.io/gemini-cli/docs/quota-and-pricing.html
+  - https://api.github.com/repos/google-gemini/gemini-cli/releases
+  notes_created:
+  - knowledge/notes/01-overview-and-roadmap.md
+  - knowledge/notes/02-architecture.md
+  - knowledge/notes/03-cli-commands-and-tools.md
+  - knowledge/notes/04-configuration.md
+  - knowledge/notes/05-security-and-sandboxing.md
+  - knowledge/notes/06-mcp-extensions-and-enterprise.md
+  - knowledge/notes/07-installation-and-deployment.md
+  - knowledge/notes/08-authentication.md
+  key_findings:
+  - 'Antigravity 2.0 is currently distributed as Gemini CLI (NPM: @google/gemini-cli).'
+  - 'Latest version: v0.44.0-nightly.20260518 (published 2026-05-18).'
+  - "Weekly release cadence with promotion flow: main \u2192 nightly \u2192 preview \u2192 stable."
+  - 'Architecture: monorepo with two NPM packages (cli + core) plus tools in packages/core/src/tools/.'
+  - Supports stdio, HTTP, and SSE transports for MCP servers.
+  - Extensions support prompts, MCP servers, and custom commands via TOML.
+  - Trusted Folders and Checkpointing are security features disabled by default.
+  - Enterprise deployment supports system-level configuration, tool allowlisting, and custom telemetry.
+- date: '2026-05-20'
+  type: deep-research
+  description: 'Gap-fill research: themes, token caching, telemetry, FAQ, memory tool, extension releasing.'
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/cli/themes.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/token-caching.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/telemetry.html
+  - https://google-gemini.github.io/gemini-cli/docs/faq.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/memory.html
+  - https://google-gemini.github.io/gemini-cli/docs/extensions/extension-releasing.html
+  - https://google-gemini.github.io/gemini-cli/docs/npm.html
+  notes_created:
+  - knowledge/notes/12-themes-and-customization.md
+  - knowledge/notes/13-token-caching.md
+  - knowledge/notes/14-telemetry-and-observability.md
+  - knowledge/notes/15-faq.md
+  - knowledge/notes/16-memory-tool.md
+  - knowledge/notes/17-extension-releasing.md
+  key_findings:
+  - 12 built-in themes (6 dark + 6 light) with full custom theme support via settings.json.
+  - Token caching works for API key and Vertex AI auth; not supported for OAuth.
+  - Telemetry uses OpenTelemetry with Google Cloud, Jaeger, Prometheus, and Datadog support.
+  - Custom metrics include command execution, tool usage, and chat compression counters.
+  - GenAI semantic conventions compliant for token usage and operation duration.
+  - Memory tool persists facts to ~/.gemini/GEMINI.md for cross-session recall.
+  - Extensions distribute via git repos or GitHub releases; git repo is the recommended approach.
+  - FAQ covers API 429 errors, Windows chmod issues, and Pro/Ultra subscription limits.
+- date: '2026-05-20'
+  type: deep-research
+  description: 'Gap-fill research: troubleshooting guide, practical examples, MCP tutorial, shell tool deep-dive, release
+    notes (v0.42.0, v0.43.0, nightly), and NPM package overview.'
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/troubleshooting.html
+  - https://google-gemini.github.io/gemini-cli/docs/get-started/examples.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/tutorials.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/shell.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/web-fetch.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/web-search.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/multi-file.html
+  - https://google-gemini.github.io/gemini-cli/docs/npm.html
+  - https://google-gemini.github.io/gemini-cli/docs/tos-privacy.html
+  - https://api.github.com/repos/google-gemini/gemini-cli/releases?per_page=10
+  notes_created:
+  - knowledge/notes/18-troubleshooting.md
+  - knowledge/notes/19-practical-examples.md
+  - knowledge/notes/20-mcp-tutorial.md
+  - knowledge/notes/21-shell-tool.md
+  - knowledge/notes/22-release-notes-v042.md
+  - knowledge/notes/23-npm-packages.md
+  key_findings:
+  - Troubleshooting guide covers auth errors, EADDRINUSE, SSL cert issues, .env exclusions, 5 exit codes (41-53), and debugging
+    tips.
+  - 'Four practical examples: photo renaming, repo explanation, spreadsheet merge, and unit testing.'
+  - MCP tutorial walks through Docker-based GitHub MCP server setup with PAT authentication.
+  - Shell tool has extensive command restriction options via core/exclude allowlist/blocklist patterns.
+  - 'v0.42.0 stable release includes 30+ changes: SEA support, auto-update channel safety, /exit --delete flag, workspace
+    trust, ACP modularization.'
+  - v0.43.0-preview.0 includes RAG snippets, ACP gateway fixes, NO_PROXY support, NixOS sandbox fixes.
+  - 'v0.43.0-preview.1 is a cherry-pick patch for issue #27073.'
+  - 'NPM workspaces manage two packages: @google/gemini-cli (UI + bundle) and @google/gemini-cli-core (API core).'
+  - TOS/Privacy maps four auth methods to different legal frameworks (Google ToS, Cloud Terms, Gemini API Terms).

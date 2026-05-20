@@ -1,3 +1,106 @@
 # Article Backlog — Antigravity 2.0
 # Managed by the topic-research skill. Do not edit manually.
 articles: []
+
+# Added: 2026-05-20 research cycle
+articles:
+  - title: "Web Fetch and Web Search Tools Deep Dive"
+    slug: "web-fetch-web-search-tools"
+    priority: medium
+    description: "Detailed documentation of web_fetch and google_web_search tools including arguments, examples, important notes, and URL processing behavior. Covers multi-URL support (up to 20), Gemini API urlContext processing, and local machine fallback."
+    source_urls:
+      - "https://google-gemini.github.io/gemini-cli/docs/tools/web-fetch.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/tools/web-search.html"
+    key_points:
+      - web_fetch processes up to 20 URLs per prompt
+      - google_web_search returns summaries with citations, not raw results
+      - Fallback to local machine fetch if API cannot access URL
+      - Prompt must contain at least one URL starting with http:// or https://
+    added: "2026-05-20"
+
+  - title: "Multi-File Read Tool Deep Dive"
+    slug: "multi-file-read-tool"
+    priority: medium
+    description: "Detailed documentation of read_many_files tool covering glob patterns, binary file handling (image/PDF/audio/video as base64), default excludes, and include/exclude pattern mechanics."
+    source_urls:
+      - "https://google-gemini.github.io/gemini-cli/docs/tools/multi-file.html"
+    key_points:
+      - read_many_files concatenates text files with file separators
+      - Image/PDF/audio/video returned as base64 when explicitly requested
+      - Binary detection via null byte examination
+      - Default excludes (node_modules, .git) can be overridden with useDefaultExcludes
+    added: "2026-05-20"
+
+  - title: "ADK Agent Session Subagent Integration"
+    slug: "adk-agent-session-subagent"
+    priority: medium
+    description: "Documentation of the adk.agentSessionSubagentEnabled flag introduced in nightly builds. Covers ADK (Agent Development Kit) integration for session subagent workflows."
+    source_urls:
+      - "https://github.com/google-gemini/gemini-cli/pull/26947"
+    key_points:
+      - New flag in nightly v0.44.0-nightly.20260518
+      - Enables ADK agent session subagent capability
+      - Source: PR #26947 by adamfweidman
+    added: "2026-05-20"
+
+  - title: "Terms of Service and Privacy for Gemini CLI"
+    slug: "tos-privacy"
+    priority: medium
+    description: "Comprehensive mapping of Terms of Service and Privacy Notices for different authentication methods: Gemini Code Assist (Individual, Standard/Enterprise), Gemini Developer API (Unpaid/Paid), and Vertex AI GenAI API."
+    source_urls:
+      - "https://google-gemini.github.io/gemini-cli/docs/tos-privacy.html"
+      - "https://google-gemini.github.io/gemini-cli/docs/quota-and-pricing.html"
+    key_points:
+      - Four authentication methods each map to different ToS and Privacy policies
+      - Individual users: Google ToS + Gemini Code Assist Privacy Notice
+      - Standard/Enterprise: Google Cloud Terms + Standard/Enterprise Privacy Notice
+      - API key users: Gemini API ToS (unpaid vs paid) + Google Privacy Policy
+      - Vertex AI users: Google Cloud Service Terms
+    added: "2026-05-20"
+
+  - title: "v0.43.0-preview.0 and v0.43.0-preview.1 Release Notes"
+    slug: "release-notes-v043"
+    priority: medium
+    description: "Release notes for v0.43.0-preview.0 (stable release of the preview track) and v0.43.0-preview.1 (cherry-pick patch). Covers RAG snippets, ACP auth fixes, NO_PROXY support, NixOS sandbox fixes, and more."
+    source_urls:
+      - "https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0-preview.0"
+      - "https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0-preview.1"
+    key_points:
+      - v0.43.0-preview.0 includes RAG snippets for local debugging
+      - ACP enterprise gateway credential conflict fix
+      - NO_PROXY support for network-based MCP servers
+      - NixOS and other distro sandbox permission fixes
+      - v0.43.0-preview.1 is a cherry-pick fix for issue #27073
+    added: "2026-05-20"
+
+  - title: "v0.44.0 Nightly Release Notes"
+    slug: "release-notes-v044-nightly"
+    priority: low
+    description: "Release notes for the latest nightly builds (v0.44.0-nightly.20260514 through v0.44.0-nightly.20260518). Covers incremental changes, ADK integration, and dependency updates."
+    source_urls:
+      - "https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260518"
+      - "https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260517"
+      - "https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260515"
+      - "https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260514"
+    key_points:
+      - ADK agent session subagent flag in v0.44.0-nightly.20260518
+      - Security dependency updates in multiple builds
+      - Web fetch Ctrl+C abort fix
+      - gemini-3.1 model aliases and thinking config
+      - Auto model resolution fix
+    added: "2026-05-20"
+
+  - title: "Seed Source Investigation: YouTube, Blogs, Reddit"
+    slug: "seed-sources-investigation"
+    priority: low
+    description: "Investigation of seed sources per AGENTS.md: YouTube channels (@GoogleDevelopers, @GoogleCloudTech, @googleDeepMind), blogs (developers.googleblog, blog.google), Reddit (r/googlecloud, r/GoogleGeminiAI), and key people (Logan Kilpatrick, Paige Bailey)."
+    source_urls:
+      - "https://www.youtube.com/@GoogleDevelopers"
+      - "https://www.youtube.com/@GoogleCloudTech"
+      - "https://www.youtube.com/@googledeepmind"
+      - "https://developers.googleblog.com"
+      - "https://blog.google/technology/ai/"
+      - "https://www.reddit.com/r/googlecloud/"
+      - "https://www.reddit.com/r/GoogleGeminiAI/"
+    note: "Seed source investigation pending. Requires manual browsing or targeted search."
+    added: "2026-05-20"
