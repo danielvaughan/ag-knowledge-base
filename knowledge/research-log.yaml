@@ -1,5 +1,3 @@
-# Research Log — Antigravity 2.0
-# Managed by the topic-research skill. Do not edit manually.
 entries:
 - date: '2026-05-19'
   type: deep-research
@@ -34,15 +32,17 @@ entries:
   key_findings:
   - 'Antigravity 2.0 is currently distributed as Gemini CLI (NPM: @google/gemini-cli).'
   - 'Latest version: v0.44.0-nightly.20260518 (published 2026-05-18).'
-  - "Weekly release cadence with promotion flow: main \u2192 nightly \u2192 preview \u2192 stable."
+  - 'Weekly release cadence with promotion flow: main → nightly → preview → stable.'
   - 'Architecture: monorepo with two NPM packages (cli + core) plus tools in packages/core/src/tools/.'
   - Supports stdio, HTTP, and SSE transports for MCP servers.
   - Extensions support prompts, MCP servers, and custom commands via TOML.
   - Trusted Folders and Checkpointing are security features disabled by default.
-  - Enterprise deployment supports system-level configuration, tool allowlisting, and custom telemetry.
+  - Enterprise deployment supports system-level configuration, tool allowlisting,
+    and custom telemetry.
 - date: '2026-05-20'
   type: deep-research
-  description: 'Gap-fill research: themes, token caching, telemetry, FAQ, memory tool, extension releasing.'
+  description: 'Gap-fill research: themes, token caching, telemetry, FAQ, memory tool,
+    extension releasing.'
   sources_fetched:
   - https://google-gemini.github.io/gemini-cli/docs/cli/themes.html
   - https://google-gemini.github.io/gemini-cli/docs/cli/token-caching.html
@@ -61,16 +61,19 @@ entries:
   key_findings:
   - 12 built-in themes (6 dark + 6 light) with full custom theme support via settings.json.
   - Token caching works for API key and Vertex AI auth; not supported for OAuth.
-  - Telemetry uses OpenTelemetry with Google Cloud, Jaeger, Prometheus, and Datadog support.
+  - Telemetry uses OpenTelemetry with Google Cloud, Jaeger, Prometheus, and Datadog
+    support.
   - Custom metrics include command execution, tool usage, and chat compression counters.
   - GenAI semantic conventions compliant for token usage and operation duration.
   - Memory tool persists facts to ~/.gemini/GEMINI.md for cross-session recall.
-  - Extensions distribute via git repos or GitHub releases; git repo is the recommended approach.
+  - Extensions distribute via git repos or GitHub releases; git repo is the recommended
+    approach.
   - FAQ covers API 429 errors, Windows chmod issues, and Pro/Ultra subscription limits.
 - date: '2026-05-20'
   type: deep-research
-  description: 'Gap-fill research: troubleshooting guide, practical examples, MCP tutorial, shell tool deep-dive, release
-    notes (v0.42.0, v0.43.0, nightly), and NPM package overview.'
+  description: 'Gap-fill research: troubleshooting guide, practical examples, MCP
+    tutorial, shell tool deep-dive, release notes (v0.42.0, v0.43.0, nightly), and
+    NPM package overview.'
   sources_fetched:
   - https://google-gemini.github.io/gemini-cli/docs/troubleshooting.html
   - https://google-gemini.github.io/gemini-cli/docs/get-started/examples.html
@@ -90,21 +93,28 @@ entries:
   - knowledge/notes/22-release-notes-v042.md
   - knowledge/notes/23-npm-packages.md
   key_findings:
-  - Troubleshooting guide covers auth errors, EADDRINUSE, SSL cert issues, .env exclusions, 5 exit codes (41-53), and debugging
-    tips.
-  - 'Four practical examples: photo renaming, repo explanation, spreadsheet merge, and unit testing.'
+  - Troubleshooting guide covers auth errors, EADDRINUSE, SSL cert issues, .env exclusions,
+    5 exit codes (41-53), and debugging tips.
+  - 'Four practical examples: photo renaming, repo explanation, spreadsheet merge,
+    and unit testing.'
   - MCP tutorial walks through Docker-based GitHub MCP server setup with PAT authentication.
-  - Shell tool has extensive command restriction options via core/exclude allowlist/blocklist patterns.
-  - 'v0.42.0 stable release includes 30+ changes: SEA support, auto-update channel safety, /exit --delete flag, workspace
-    trust, ACP modularization.'
-  - v0.43.0-preview.0 includes RAG snippets, ACP gateway fixes, NO_PROXY support, NixOS sandbox fixes.
+  - Shell tool has extensive command restriction options via core/exclude allowlist/blocklist
+    patterns.
+  - 'v0.42.0 stable release includes 30+ changes: SEA support, auto-update channel
+    safety, /exit --delete flag, workspace trust, ACP modularization.'
+  - v0.43.0-preview.0 includes RAG snippets, ACP gateway fixes, NO_PROXY support,
+    NixOS sandbox fixes.
   - 'v0.43.0-preview.1 is a cherry-pick patch for issue #27073.'
-  - 'NPM workspaces manage two packages: @google/gemini-cli (UI + bundle) and @google/gemini-cli-core (API core).'
-  - TOS/Privacy maps four auth methods to different legal frameworks (Google ToS, Cloud Terms, Gemini API Terms).
-
+  - 'NPM workspaces manage two packages: @google/gemini-cli (UI + bundle) and @google/gemini-cli-core
+    (API core).'
+  - TOS/Privacy maps four auth methods to different legal frameworks (Google ToS,
+    Cloud Terms, Gemini API Terms).
 - date: '2026-05-20'
   type: deep-research
-  description: 'Gap-fill research: quotas/pricing note, Google Developers Blog seed source investigation (5 blog posts on Antigravity platform, ADK, Gemini CLI transition, Gemini 3 Flash/Pro integration, and agent framework examples), changelog review, and new backlog entries.'
+  description: 'Gap-fill research: quotas/pricing note, Google Developers Blog seed
+    source investigation (5 blog posts on Antigravity platform, ADK, Gemini CLI transition,
+    Gemini 3 Flash/Pro integration, and agent framework examples), changelog review,
+    and new backlog entries.'
   sources_fetched:
   - https://google-gemini.github.io/gemini-cli/docs/quota-and-pricing.html
   - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
@@ -121,13 +131,41 @@ entries:
   - knowledge/notes/25-google-developers-blog-announcements.md
   - knowledge/notes/26-google-developers-blog-antigravity-platform.md
   key_findings:
-  - Quotas/pricing page documented with free tier, paid tier (Standard/Enterprise), and pay-as-you-go options across all auth methods.
-  - Google announced transition from Gemini CLI to Antigravity CLI with June 18, 2026 sunset date for non-enterprise users.
-  - Google Antigravity platform includes Editor View (AI IDE) and Manager Surface (multi-agent orchestration) with Artifacts verification system.
-  - Gemini 3 Flash achieves 78% SWE-bench Verified score, available at less than quarter cost of Gemini 3 Pro.
-  - Gemini 3 Pro in Gemini CLI: 5 practical use cases including code review, refactoring, documentation, and Cloud Run debugging.
+  - Quotas/pricing page documented with free tier, paid tier (Standard/Enterprise),
+    and pay-as-you-go options across all auth methods.
+  - Google announced transition from Gemini CLI to Antigravity CLI with June 18, 2026
+    sunset date for non-enterprise users.
+  - Google Antigravity platform includes Editor View (AI IDE) and Manager Surface
+    (multi-agent orchestration) with Artifacts verification system.
+  - Gemini 3 Flash achieves 78% SWE-bench Verified score, available at less than quarter
+    cost of Gemini 3 Pro.
+  - Gemini 3 Pro in Gemini CLI: 5 practical use cases including code review, refactoring,
+      documentation, and Cloud Run debugging.
   - Six framework integrations showcased: ADK, Agno, Browser Use, Eigent, Letta, mem0.
-  - ADK tutorial covers durable memory schemas, event-driven dormancy gates, and multi-agent delegation for long-running agents.
+  - ADK tutorial covers durable memory schemas, event-driven dormancy gates, and multi-agent
+    delegation for long-running agents.
   - Changelog directory has weekly updates from v0.4.0 to v0.7.0 (last entry 2025-09-22).
   - No new releases since v0.43.0-preview.1 (2026-05-19).
-  - Reddit seed sources require captcha-protected pages; YouTube channel listing requires JS rendering.
+  - Reddit seed sources require captcha-protected pages; YouTube channel listing requires
+    JS rendering.
+- date: '2026-05-20'
+  type: deep-research
+  description: 'Gap-fill research: file system tools documentation (6 tools), release
+    process/cadence documentation, and ADK quickstart site overview.'
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/tools/file-system.html
+  - https://google-gemini.github.io/gemini-cli/docs/releases.html
+  - https://adk.dev/get-started/
+  - https://api.github.com/repos/google-gemini/gemini-cli/releases
+  notes_created:
+  - knowledge/notes/27-file-system-tools.md
+  - knowledge/notes/28-release-process.md
+  key_findings:
+  - 'File system tools include 6 operations: list_directory, read_file, write_file,
+    glob, search_file_content, and replace.'
+  - replace tool includes multi-stage edit correction for robustness.
+  - 'Release cadence follows semver with 3-tier promotion: nightly -> preview -> stable.'
+  - Weekly Tuesday releases at ~2000 UTC with 1-week lag from main to stable.
+  - 'Dual artifact distribution: NPM packages and bundled gemini.js for npx.'
+  - ADK site offers Python, TypeScript, and Go quickstarts.
+  - No new releases since v0.43.0-preview.1 (2026-05-19).
