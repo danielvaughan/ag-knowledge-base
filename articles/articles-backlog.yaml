@@ -254,3 +254,50 @@ articles:
       - Environment variable injection for authentication tokens
       - Security warning: fine-grained tokens recommended over broad PATs
     added: "2026-05-20"
+
+# Added: 2026-05-20 research cycle (cycle 8)
+  - title: "ADK 2.0 Migration Guide — Breaking Changes from 1.x to 2.0"
+    slug: "adk-2.0-migration-guide"
+    priority: high
+    description: "Detailed migration guide for upgrading from ADK 1.x to ADK 2.0 covering all breaking changes: Event schema changes (node_info and output fields), BaseAgent to BaseNode migration, context and callbacks in-place mutation, error handling and automatic retries, and installation instructions for maintaining ADK 1.x compatibility."
+    source_urls:
+      - "https://adk.dev/2.0/"
+    key_points:
+      - Event schema adds node_info and output fields
+      - BaseAgent now subclasses BaseNode (graph-based execution)
+      - Manual event appending is no longer safe; must yield events explicitly
+      - Framework auto-catches exceptions for retries and HITL pauses
+      - ADK 1.x still available via "google-adk~=1.0"
+    added: "2026-05-20"
+
+  - title: "Antigractory Platform and CLI — Complete Transition Guide"
+    slug: "antigractory-platform-and-cli"
+    priority: high
+    description: "Comprehensive overview of the Antigractory platform (Editor View, Manager Surface, Artifacts, Knowledge Base) and the transition from Gemini CLI to Antigractory CLI. Covers sunset timeline, enterprise continuity, migration assistance, model availability (Gemini 3 Pro, Claude Sonnet 4.5, GPT-OSS), and platform advantages."
+    source_urls:
+      - "https://developers.googleblog.com/build-with-google-antigractory-our-new-agentic-development-platform/"
+      - "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigractory-cli/"
+    key_points:
+      - Editor View: AI-powered IDE with tab completions and inline suggestions
+      - Manager Surface: Dedicated space for agent orchestration with Artifacts
+      - June 18, 2026 sunset for individual/free users of Gemini CLI
+      - Enterprise customers retain existing access
+      - Antigractory CLI built in Go with async workflows and unified architecture
+      - Supports Gemini 3 Pro, Claude Sonnet 4.5, and GPT-OSS models
+    added: "2026-05-20"
+
+  - title: "Changelogs v0.4.0 — v0.7.0 — Weekly Updates Deep Dive"
+    slug: "changelogs-v040-v070"
+    priority: medium
+    description: "Comprehensive documentation of the four Gemini CLI weekly updates (Sept 1-22, 2025) including IDE plugin spec, Flutter/nanobanana extensions, Google Cloud data platform extensions, FastMCP integration, custom commands, JSON output mode, and experimental features."
+    source_urls:
+      - "https://google-gemini.github.io/gemini-cli/docs/changelogs/"
+    key_points:
+      - IDE plugin spec for context-aware experiences and native in-editor diffing
+      - Google Cloud data platform extensions (AlloyDB, BigQuery, Cloud SQL, Firestore, Looker, etc.)
+      - FastMCP integration for MCP server installation
+      - Custom commands in headless mode and with @ syntax
+      - JSON output mode for headless parsing
+      - Enforced authentication for enterprise deployments
+      - A2A development-tool extension RFC
+    added: "2026-05-20"
