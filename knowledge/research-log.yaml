@@ -197,3 +197,68 @@ entries:
     BigQuery, Cloud SQL, Dataplex, Firestore, Looker, MySQL, Postgres, Spanner,
     SQL Server) plus MCP Toolbox for 30+ data sources.
   - Extensions announced via Google Cloud blog by Mandava and Karmarkar on 2025-09-24.
+
+  - type: youtube-curation
+    date: 2026-05-20
+    videos_added:
+      - title: "Google Antigravity 2.0 Beginner's Guide"
+        url: https://www.youtube.com/watch?v=6C0FjHoN3qE
+        channel: Google Antigravity
+        signal: Multi-agent teams, scheduled tasks, native voice, Google integrations
+      - title: "Announcing Google Antigravity SDK"
+        url: https://www.youtube.com/watch?v=RGhunHLnVIg
+        channel: Google Antigravity
+        signal: SDK announcement positioning Antigravity as agent-first IDE platform
+      - title: "Google Antigravity CLI Full Walkthrough"
+        url: https://www.youtube.com/watch?v=am0lg5-ofvQ
+        channel: Google Antigravity
+        signal: Deep dive into new CLI terminal surface
+      - title: "FIRST LOOK into Google Antigravity CLI"
+        url: https://www.youtube.com/watch?v=WiWDrTujl_w
+        channel: Google Antigravity
+        signal: Preview of terminal-based agentic workflows
+      - title: "Antigravity 2.0: Google's $100 Bet to Beat Codex and Claude Code"
+        url: https://www.youtube.com/watch?v=CSmUPq-9NlI
+        channel: Nyndra AI
+        signal: Competitive analysis, Gemini CLI sunset, AI Ultra tier implications
+      - title: "I Tried Google's New Antigravity 2.0 (Full Build)"
+        url: https://www.youtube.com/watch?v=yvEAD22uy1w
+        channel: Matt Kuda
+        signal: Hands-on build walkthrough, I/O 2026 context
+      - title: "Antigravity 2.0 and Gemini 3.5 Flash (Fully Tested)"
+        url: https://www.youtube.com/watch?v=0Ej08fUb5TI
+        channel: AICodeKing
+        signal: Critical review of IO announcements
+      - title: "Google Antigravity 2.0 Just Faceplanted"
+        url: https://www.youtube.com/watch?v=-uAAX_9gNo8
+        channel: Jordan Dalton
+        signal: Launch critique citing bugs and privacy concerns
+      - title: "End of Gemini CLI: Welcome to Antigravity 2.0"
+        url: https://www.youtube.com/watch?v=vTsadVEDKPE
+        channel: Telusko
+        signal: Migration tutorial, IDE vs desktop differentiation
+      - title: "Google Antigravity 2.0 is Here"
+        url: https://www.youtube.com/watch?v=7jw0hZQ__Pk
+        channel: Software Engineer Meets AI
+        signal: Installation and feature overview
+      - title: "How Marketers Are Using Google Antigravity"
+        url: https://www.youtube.com/watch?v=1rF_SZZ3yWs
+        channel: Google Antigravity
+        signal: Marketer use case (potentially off-topic)
+      - title: "Antigravity and Nano Banana Pro with Remik"
+        url: https://www.youtube.com/watch?v=XCGbDx7aSks
+        channel: Google Cloud Tech
+        signal: Agent Factory podcast with practical demo
+      - title: "AI Coding with Gemini CLI"
+        url: https://www.youtube.com/watch?v=zEMXCoqJodE
+        channel: Google for Developers
+        signal: Predecessor content (Gemini CLI) for evolution context
+    article_ideas:
+      - "Gemini CLI Sunset Timeline and Migration Strategies"
+      - "Antigravity vs Competitive Positioning (Codex, Claude Code)"
+      - "Multi-Agent Teams in Practice"
+      - "Antigravity CLI vs Desktop App Comparison Guide"
+    search_queries:
+      - "antigravity 2 agentic development IDE SDK CLI"
+      - "antigravity 2 channel:GoogleDevelopers"
+      - "antigravity 2 channel:GoogleCloudTech"
