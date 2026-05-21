@@ -282,3 +282,36 @@ entries:
   - Three blog articles from May 19, 2026 already captured in note 25.
   - SWE-bench score verified at 78% (agentic coding context) — no update needed.
   - Manual release workflow docs are internal process — low priority for external audience.
+  - type: youtube-curation
+    date: 2026-05-21
+    videos_added:
+      - title: "How To Install Antigravity CLI | Google I/O 2026 Latest Product — Full Setup Guide"
+        url: https://www.youtube.com/watch?v=zNMsytVjUv4
+        channel: MyCodeWorks
+        signal: Step-by-step CLI installation guide with comparison to Gemini CLI, Claude Code, and Codex CLI. Covers Windows/Mac/Linux setup.
+    article_ideas:
+      - "Antigravity CLI vs Gemini CLI vs Claude Code vs Codex CLI — Comparison Guide"
+    search_queries:
+      - "antigravity 2.0 site:youtube.com"
+      - "antigravity CLI site:youtube.com"
+      - "site:youtube.com @GoogleDevelopers"
+      - "site:youtube.com @GoogleCloudTech"
+    priority_channels_checked:
+      - @GoogleDevelopers
+      - @GoogleCloudTech
+      - @GoogleAntigravity
+    other_channels_checked:
+      - @GoogleCloud
+      - @googledeepmind
+      - @NyndraAI
+      - @Telusko
+      - @AICodeKing
+      - @SoftwareEngineerMeetsAI
+      - @MyCodeWorks
+    videos_skipped:
+      - title: "From Genetic Variant to Wet-lab: Accelerating the path from hypothesis to experiment"
+        url: https://www.youtube.com/watch?v=v0eokiSJO74
+        reason: Duration < 3 minutes (2:54)
+      - title: "Mission Report Ep. 03 | Antigravity Updates"
+        url: https://www.youtube.com/watch?v=fTf3QBUM3Zg
+        reason: Duration < 3 minutes (2:59)

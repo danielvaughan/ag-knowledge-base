@@ -304,3 +304,14 @@
 - **Published:** 20 May 2026
 - **Views:** 5,344
 - **Signal:** Step-by-step guide to downgrade Antigravity IDE to the previous version after the I/O 2026 update.
+
+## New Install Guides
+
+### How To Install Antigravity CLI | Google I/O 2026 Latest Product — Full Setup Guide
+
+- **URL:** [youtube.com/watch?v=zNMsytVjUv4](https://www.youtube.com/watch?v=zNMsytVjUv4)
+- **Channel:** MyCodeWorks
+- **Duration:** 6:15
+- **Published:** 21 May 2026
+- **Views:** 16
+- **Signal:** Step-by-step installation guide for Antigravity CLI covering download, authentication, key commands, and I/O 2026 updates. Compares Antigravity CLI vs Gemini CLI vs Claude Code vs Codex CLI. Covers Windows, Mac, and Linux setup.
