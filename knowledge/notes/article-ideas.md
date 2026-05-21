@@ -15,3 +15,8 @@
 - **Browser agent and extension regressions after Antigravity 2.0** -- Source:
   [Google Antigravity 2.0 Just Changed EVERYTHING](https://www.youtube.com/watch?v=O0rXXZDJByg),
   2026-05-20
+## Sources: 2026-05-21 YouTube Curation
+
+1. **Antigravity CLI vs Gemini CLI vs Claude Code vs Codex CLI — Comparison Guide**
+   - Source: "How To Install Antigravity CLI" (MyCodeWorks, 2026-05-21)
+   - Description: Step-by-step install guide explicitly compares Antigravity CLI against Gemini CLI, Claude Code, and Codex CLI across Windows/Mac/Linux platforms. Strong candidate for a comparison guide targeting the primary audience of software engineers and engineering managers evaluating agentic development platforms.

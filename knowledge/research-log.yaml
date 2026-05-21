@@ -373,3 +373,97 @@ entries:
     JSON output, and non-interactive exit-code handling.
   - The latest observed release is v0.44.0-nightly.20260521.g57c42a5c4,
     published 2026-05-21 as a prerelease.
+
+- date: '2026-05-20'
+  type: gap-fill
+  description: 'Cycle 7 gap scan: comprehensive docs index comparison and seed source
+    investigation. All 30 documentation pages now have coverage. No new notes needed.'
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/
+  - https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/
+  - https://developers.googleblog.com/5-things-to-try-with-gemini-3-pro-in-gemini-cli/
+  - https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
+  - https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/
+  - https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/
+  notes_created:
+  - (none — all docs pages already covered)
+  key_findings:
+  - All 30 documentation pages have corresponding notes or article backlog entries.
+  - No new releases since v0.43.0-preview.1 (2026-05-19).
+  - Three blog articles from May 19, 2026 already captured in note 25.
+  - SWE-bench score verified at 78% (agentic coding context) — no update needed.
+  - Manual release workflow docs are internal process — low priority for external audience.
+  - type: youtube-curation
+    date: 2026-05-21
+    videos_added:
+      - title: "How To Install Antigravity CLI | Google I/O 2026 Latest Product — Full Setup Guide"
+        url: https://www.youtube.com/watch?v=zNMsytVjUv4
+        channel: MyCodeWorks
+        signal: Step-by-step CLI installation guide with comparison to Gemini CLI, Claude Code, and Codex CLI. Covers Windows/Mac/Linux setup.
+    article_ideas:
+      - "Antigravity CLI vs Gemini CLI vs Claude Code vs Codex CLI — Comparison Guide"
+    search_queries:
+      - "antigravity 2.0 site:youtube.com"
+      - "antigravity CLI site:youtube.com"
+      - "site:youtube.com @GoogleDevelopers"
+      - "site:youtube.com @GoogleCloudTech"
+    priority_channels_checked:
+      - @GoogleDevelopers
+      - @GoogleCloudTech
+      - @GoogleAntigravity
+    other_channels_checked:
+      - @GoogleCloud
+      - @googledeepmind
+      - @NyndraAI
+      - @Telusko
+      - @AICodeKing
+      - @SoftwareEngineerMeetsAI
+      - @MyCodeWorks
+    videos_skipped:
+      - title: "From Genetic Variant to Wet-lab: Accelerating the path from hypothesis to experiment"
+        url: https://www.youtube.com/watch?v=v0eokiSJO74
+        reason: Duration < 3 minutes (2:54)
+      - title: "Mission Report Ep. 03 | Antigravity Updates"
+        url: https://www.youtube.com/watch?v=fTf3QBUM3Zg
+        reason: Duration < 3 minutes (2:59)
+
+- date: '2026-05-21'
+  type: deep-research
+  description: 'Cycle 9 deep scan: new nightly v0.44.0-nightly.20260521 with 21
+    PRs including Skills system, Session Invocation API, editor support. Google
+    I/O 2026 content and Google Cloud Tech live session identified. No new docs
+    pages yet for new nightly features.'
+  sources_fetched:
+  - https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4
+  - https://github.com/google-gemini/gemini-cli/pull/27121
+  - https://github.com/google-gemini/gemini-cli/pull/26665
+  - https://github.com/google-gemini/gemini-cli/pull/26937
+  - https://github.com/google-gemini/gemini-cli/pull/26948
+  - https://github.com/google-gemini/gemini-cli/pull/25139
+  - https://github.com/google-gemini/gemini-cli/pull/26939
+  - https://github.com/google-gemini/gemini-cli/pull/27216
+  - https://github.com/google-gemini/gemini-cli/pull/27215
+  - https://github.com/google-gemini/gemini-cli/pull/27234
+  - https://github.com/google-gemini/gemini-cli/pull/27228
+  - https://github.com/google-gemini/gemini-cli/pull/27073
+  - https://github.com/google-gemini/gemini-cli/pull/21090
+  - https://developers.googleblog.com/
+  - https://adk.dev/2.0/
+  - https://youtube.com/results?search_query=antigravity+2.0+new+2026
+  notes_created:
+  - (none — no new docs pages for nightly features)
+  key_findings:
+  - New nightly v0.44.0-nightly.20260521 (2026-05-21) has 21 PRs
+  - Skills system (agent-tui, tui-tester) is a significant new framework
+  - Session Invocation API (LocalSessionInvocation + RemoteSessionInvocation)
+    is a major architectural addition for ADK 2.0 integration
+  - Sublime Text and Emacs Client now supported as external editors
+  - No official docs pages for new nightly features yet
+  - Google I/O 2026 recap video from Google for Developers identified
+  - Google Cloud Tech "Getting started with Antigravity" live session found
+  - v0.43.0-preview.1 still latest preview/stable release
+  - No new knowledge notes created (features not yet documented)
+  article_backlog_added:
+  - "Gemini CLI Skills System — agent-tui and tui-tester" (high)
+  - "Session Invocation Architecture" (high)
+  - "v0.44.0 Nightly Updates (updated)" (medium)
