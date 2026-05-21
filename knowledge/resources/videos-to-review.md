@@ -427,3 +427,91 @@
 - **Published:** 11 May 2026
 - **Views:** 4,391
 - **Signal:** David East walks through Stitch, Google Labs' AI-powered UI generation tool. Covers Design.md for AI design, Gemini CLI + Stitch MCP Server for extracting HTML and Tailwind CSS. Relevant as Stitch is part of the Antigravity ecosystem for frontend development.
+
+## Google I/O 2026 Content
+
+### What's new in Gemini API, Google AI Studio and Google Antigravity (Google I/O 2026 recap)
+
+- **URL:** [youtube.com/watch?v=98bQUQUEEJs](https://www.youtube.com/watch?v=98bQUQUEEJs)
+- **Channel:** Google for Developers (seed source)
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Official Google for Developers I/O 2026 recap covering Gemini API,
+  Google AI Studio, and Antigravity announcements. High-signal official source.
+
+### Simplify framework updates with Google Antigravity
+
+- **URL:** [youtube.com/watch?v=4-PrWrkhq6c](https://www.youtube.com/watch?v=4-PrWrkhq6c)
+- **Channel:** Google for Developers (seed source)
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Official Google for Developers video on framework updates with Antigravity.
+
+### Antigravity 2.0: Agent-First Desktop App
+
+- **URL:** [youtube.com/watch?v=J3cCzZ7LY6I](https://www.youtube.com/watch?v=J3cCzZ7LY6I)
+- **Channel:** Build Max
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Desktop app deep dive focusing on the agent-first design.
+
+## Google Cloud Live Sessions
+
+### Google Cloud Live: Getting started with Antigravity
+
+- **URL:** [youtube.com/watch?v=9eesXjCHlOo](https://www.youtube.com/watch?v=9eesXjCHlOo)
+- **Channel:** Google Cloud Tech (seed source)
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Official Google Cloud Tech live session — getting started guide.
+  High-signal official source.
+
+### Move faster with Antigravity
+
+- **URL:** [youtube.com/watch?v=BPaavbvWIVY](https://www.youtube.com/watch?v=BPaavbvWIVY)
+- **Channel:** Google Cloud
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Official Google Cloud marketing/demo video for Antigravity.
+
+## Additional Tutorials and Reviews
+
+### Master 80% of Google Antigravity in 27 Minutes
+
+- **URL:** [youtube.com/watch?v=CM2CkNU9xR0](https://www.youtube.com/watch?v=CM2CkNU9xR0)
+- **Channel:** Ali H. Salem
+- **Duration:** 27:00
+- **Published:** 2026
+- **Signal:** Comprehensive 27-minute tutorial covering most of Antigravity's features.
+
+### Google Antigravity - Explained visually (agentic IDE)
+
+- **URL:** [youtube.com/watch?v=C_ed4Qo6lUc](https://www.youtube.com/watch?v=C_ed4Qo6lUc)
+- **Channel:** cloud-monk
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Visual explainer of the agentic IDE concept.
+
+### Google Antigravity 2.0 is Google's Second Chance
+
+- **URL:** [youtube.com/watch?v=N5ufNMTaZ7A](https://www.youtube.com/watch?v=N5ufNMTaZ7A)
+- **Channel:** Eric Michaud
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Analysis/opinion piece on Google's strategy with Antigravity 2.0.
+
+### Antigravity 2.0 + Gemini 3.5 Flash + MCP = Algo Trading on Autopilot
+
+- **URL:** [youtube.com/watch?v=S6J5YygV4fc](https://www.youtube.com/watch?v=S6J5YygV4fc)
+- **Channel:** Algo-trading with Saleh
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Real-world use case: algorithmic trading with Antigravity.
+
+### Google's New "Antigravity" AI IDE: Better Than Cursor? (Review & Demo)
+
+- **URL:** [youtube.com/watch?v=HCeyLJP60LQ](https://www.youtube.com/watch?v=HCeyLJP60LQ)
+- **Channel:** Telusko
+- **Duration:** N/A
+- **Published:** 2026
+- **Signal:** Competitive review comparing Antigravity to Cursor IDE.

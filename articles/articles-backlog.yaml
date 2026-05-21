@@ -301,3 +301,55 @@ articles:
       - Enforced authentication for enterprise deployments
       - A2A development-tool extension RFC
     added: "2026-05-20"
+
+# Added: 2026-05-21 research cycle (cycle 9)
+  - title: "Gemini CLI Skills System — agent-tui and tui-tester"
+    slug: "gemini-cli-skills-system"
+    priority: high
+    description: "Documentation of the new Skills framework introduced in v0.44.0-nightly.20260521. Covers the agent-tui skill for agentic terminal workflows, the tui-tester skill for testing, and the broader skills architecture for customizing agent behavior."
+    source_urls:
+      - "https://github.com/google-gemini/gemini-cli/pull/27121"
+    key_points:
+      - New skills framework allows customizing agent behavior
+      - agent-tui skill provides agentic terminal workflows
+      - tui-tester skill enables testing of TUI interactions
+      - First public appearance in nightly v0.44.0-nightly.20260521
+      - No official documentation page yet
+    added: "2026-05-21"
+
+  - title: "Session Invocation Architecture — LocalSessionInvocation and RemoteSessionInvocation"
+    slug: "session-invocation-architecture"
+    priority: high
+    description: "Documentation of the new Session Invocation API introduced in nightly v0.44.0-nightly.20260521. Covers LocalSessionInvocation (#26665), RemoteSessionInvocation (#26937), and wiring into agent-tool (#26948) — a major architectural addition for AgentSession and ADK integration workflows."
+    source_urls:
+      - "https://github.com/google-gemini/gemini-cli/pull/26665"
+      - "https://github.com/google-gemini/gemini-cli/pull/26937"
+      - "https://github.com/google-gemini/gemini-cli/pull/26948"
+    key_points:
+      - LocalSessionInvocation enables local agent session execution
+      - RemoteSessionInvocation enables remote agent session execution
+      - Wired into agent-tool via PR #26948
+      - Part of the broader ADK 2.0 AgentSession integration
+      - No official documentation page yet
+    added: "2026-05-21"
+
+  - title: "v0.44.0 Nightly Updates (v0.44.0-nightly.20260514 through v0.44.0-nightly.20260521)"
+    slug: "release-notes-v044-nightly-updated"
+    priority: medium
+    description: "Updated release notes covering the full range of nightly builds from v0.44.0-nightly.20260514 through v0.44.0-nightly.20260521. Includes skills framework, session invocation architecture, Sublime Text/Emacs editor support, Vim Normal mode fix, snapshot recovery, and multiple security/correctness fixes."
+    source_urls:
+      - "https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4"
+      - "https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260518.g5611ff40e"
+    key_points:
+      - Skills system with agent-tui and tui-tester (PR #27121)
+      - Session invocation architecture (PRs #26665, #26937)
+      - Sublime Text and Emacs Client editor support (PR #21090)
+      - Vim Normal mode unmapped key fix (PR #25139)
+      - Snapshot recovery across sessions fix (PR #26939)
+      - NO_PROXY support in global fetch dispatcher (PR #27216)
+      - Allow configured MCP servers in non-interactive mode (PR #27215)
+      - Path traversal prevention in custom commands (PR #27234)
+      - Nullable array types in MCP tools fix (PR #27228)
+      - Default policy loading for A2A server (PR #27073)
+      - 5 new contributors: @kaluchi, @Rajeshpatel07, @ompatel-aiml, @ashishch432, @alberti42
+    added: "2026-05-21"

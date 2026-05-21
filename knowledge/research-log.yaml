@@ -315,3 +315,44 @@ entries:
       - title: "Mission Report Ep. 03 | Antigravity Updates"
         url: https://www.youtube.com/watch?v=fTf3QBUM3Zg
         reason: Duration < 3 minutes (2:59)
+
+- date: '2026-05-21'
+  type: deep-research
+  description: 'Cycle 9 deep scan: new nightly v0.44.0-nightly.20260521 with 21
+    PRs including Skills system, Session Invocation API, editor support. Google
+    I/O 2026 content and Google Cloud Tech live session identified. No new docs
+    pages yet for new nightly features.'
+  sources_fetched:
+  - https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4
+  - https://github.com/google-gemini/gemini-cli/pull/27121
+  - https://github.com/google-gemini/gemini-cli/pull/26665
+  - https://github.com/google-gemini/gemini-cli/pull/26937
+  - https://github.com/google-gemini/gemini-cli/pull/26948
+  - https://github.com/google-gemini/gemini-cli/pull/25139
+  - https://github.com/google-gemini/gemini-cli/pull/26939
+  - https://github.com/google-gemini/gemini-cli/pull/27216
+  - https://github.com/google-gemini/gemini-cli/pull/27215
+  - https://github.com/google-gemini/gemini-cli/pull/27234
+  - https://github.com/google-gemini/gemini-cli/pull/27228
+  - https://github.com/google-gemini/gemini-cli/pull/27073
+  - https://github.com/google-gemini/gemini-cli/pull/21090
+  - https://developers.googleblog.com/
+  - https://adk.dev/2.0/
+  - https://youtube.com/results?search_query=antigravity+2.0+new+2026
+  notes_created:
+  - (none — no new docs pages for nightly features)
+  key_findings:
+  - New nightly v0.44.0-nightly.20260521 (2026-05-21) has 21 PRs
+  - Skills system (agent-tui, tui-tester) is a significant new framework
+  - Session Invocation API (LocalSessionInvocation + RemoteSessionInvocation)
+    is a major architectural addition for ADK 2.0 integration
+  - Sublime Text and Emacs Client now supported as external editors
+  - No official docs pages for new nightly features yet
+  - Google I/O 2026 recap video from Google for Developers identified
+  - Google Cloud Tech "Getting started with Antigravity" live session found
+  - v0.43.0-preview.1 still latest preview/stable release
+  - No new knowledge notes created (features not yet documented)
+  article_backlog_added:
+  - "Gemini CLI Skills System — agent-tui and tui-tester" (high)
+  - "Session Invocation Architecture" (high)
+  - "v0.44.0 Nightly Updates (updated)" (medium)
