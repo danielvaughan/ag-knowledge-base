@@ -188,10 +188,10 @@ entries:
   key_findings:
   - ADK Python 2.0.0 GA released May 19, 2026 with graph-based workflows, dynamic
     workflows, and collaborative workflows.
-  - Three workflow paradigms: deterministic graph routes, iterative dynamic logic,
-    and coordinator-subagent delegation.
-  - Core primitives expanded: Agent, Tool, Callbacks, Session, Memory, Artifact,
-    Code Execution, Planning, Models, Event, Runner.
+  - 'Three workflow paradigms: deterministic graph routes, iterative dynamic logic,
+    and coordinator-subagent delegation.'
+  - 'Core primitives expanded: Agent, Tool, Callbacks, Session, Memory, Artifact,
+    Code Execution, Planning, Models, Event, Runner.'
   - Multi-language support: Python, TypeScript, Go, Java, Kotlin.
   - Google Cloud Data Platform extensions include 9 database extensions (AlloyDB,
     BigQuery, Cloud SQL, Dataplex, Firestore, Looker, MySQL, Postgres, Spanner,
@@ -262,3 +262,114 @@ entries:
       - "antigravity 2 agentic development IDE SDK CLI"
       - "antigravity 2 channel:GoogleDevelopers"
       - "antigravity 2 channel:GoogleCloudTech"
+- date: '2026-05-21'
+  type: deep-research
+  description: 'Scheduled gap-fill research: web fetch/search tools, multi-file read
+    tool, and terms/privacy documentation.'
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/tools/web-fetch.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/web-search.html
+  - https://google-gemini.github.io/gemini-cli/docs/tools/multi-file.html
+  - https://google-gemini.github.io/gemini-cli/docs/tos-privacy.html
+  notes_created:
+  - knowledge/notes/31-web-fetch-and-search-tools.md
+  - knowledge/notes/32-multi-file-read-tool.md
+  - knowledge/notes/33-terms-and-privacy.md
+  key_findings:
+  - web_fetch processes prompts containing up to 20 URLs and can fall back from
+    Gemini API URL context to local fetching.
+  - google_web_search sends a query through Gemini API and returns a synthesized
+    search summary with citations rather than raw search results.
+  - read_many_files aggregates path and glob matches, respects default excludes
+    and .gitignore by default, and only includes media/PDF files when targeted.
+  - Terms, privacy notices, model-training use, and usage statistics behavior vary
+    by authentication method and account type.
+- lead: "Google’s AntiGravity 2.0 Just Dropped, and…"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=r5ZPO_O1ql4"
+- lead: "Antigravity 2.0 UPDATE: NEW Agentic AI Coding Agent + Gemini Desktop App!"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=msd_APlIsRk"
+- lead: "Where Did My Terminal Go? Antigravity 2.0 Explained"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=gCcKFUdcTsI"
+- lead: "Google Antigravity 2.0 Just Changed EVERYTHING (3 Modes)"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=O0rXXZDJByg"
+- lead: "Antigravity 2.0 Update - How to Use the IDE Again"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=pnDMU1AnnpU"
+- lead: "Google Antigravity 2.0 vs Claude Code"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=pOrWqhDRPE0"
+- lead: "How to Install and Use Google Gemini Antigravity CLI"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=jEBjzIUn4-E"
+- lead: "How to install Google Antigravity CLI on Windows 11"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=X8Tq-2fqLpM"
+- lead: "How to Install Google Antigravity CLI on Windows (Step-by-Step Guide)"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=v3IuGlxc3S0"
+- lead: "Google Antigravity 2.0: New Desktop App, CLI, and Gemini 3.5 Flash"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=SM6SB5-Gf3k"
+- lead: "Google Antigravity Not Working? Fix IDE & Zero CLI Issue"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=-wTIr6MogE0"
+- lead: "I Read Every Google Antigravity 2.0 Doc So You Don't Have To"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=4itRC3Z-HtM"
+- lead: "Testing Google Antigravity 2.0 and I don't like it"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=jM8nalF9cJk"
+- lead: "If you didn't like Google Antigravity 2.0, here's how to go back to the IDE"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=4gn9e9qzyzA"
+- lead: "Google Just Dropped Their GOD STACK (Gemini 3.5 + Antigravity FREE)"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=zVir53lQZ_s"
+- lead: "Google AntiGravity 2.0 Free Use"
+  date: 2026-05-21
+  outcome: "video_added"
+  source: "https://www.youtube.com/watch?v=iOnztt5eaWk"
+- date: '2026-05-21'
+  type: deep-research
+  description: 'Scheduled gap-fill research: custom commands, headless and
+    machine-readable CLI use, and latest v0.44 nightly release coverage.'
+  sources_fetched:
+  - https://google-gemini.github.io/gemini-cli/docs/cli/custom-commands.html
+  - https://google-gemini.github.io/gemini-cli/docs/cli/commands.html
+  - https://google-gemini.github.io/gemini-cli/docs/get-started/configuration.html
+  - https://google-gemini.github.io/gemini-cli/docs/get-started/authentication.html
+  - https://google-gemini.github.io/gemini-cli/docs/changelogs/
+  - https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4
+  notes_created:
+  - knowledge/notes/34-custom-commands.md
+  - knowledge/notes/35-headless-and-machine-readable-cli.md
+  - knowledge/notes/36-release-notes-v044-nightly-20260521.md
+  key_findings:
+  - Custom commands are TOML-backed global or project slash commands, with
+    project commands taking precedence over user commands.
+  - Custom commands support dynamic shell and file injection; shell injections
+    require confirmation and the latest observed nightly includes a path
+    traversal fix for command file injection.
+  - Headless use combines environment-based authentication, positional prompts,
+    JSON output, and non-interactive exit-code handling.
+  - The latest observed release is v0.44.0-nightly.20260521.g57c42a5c4,
+    published 2026-05-21 as a prerelease.
