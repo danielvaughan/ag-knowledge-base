@@ -315,3 +315,115 @@
 - **Published:** 21 May 2026
 - **Views:** 16
 - **Signal:** Step-by-step installation guide for Antigravity CLI covering download, authentication, key commands, and I/O 2026 updates. Compares Antigravity CLI vs Gemini CLI vs Claude Code vs Codex CLI. Covers Windows, Mac, and Linux setup.
+
+## Google for Developers
+
+### Google I/O 2026 Developer Keynote 5-Minute Recap
+
+- **URL:** [youtube.com/watch?v=FZ-3BjbfNlI](https://www.youtube.com/watch?v=FZ-3BjbfNlI)
+- **Channel:** Google for Developers
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 41,809
+- **Signal:** Essential developer announcements from Google I/O '26 covering Antigravity platform, Android development integration, and new Chrome tools including Modern Web Guidance and Chrome DevTools for agents. Speakers: Logan Kilpatrick, Paige Bailey, Anshul Ramachandran, Kevin Hou, Florina Muntenescu, Adarsh Fernando, Una Kravets, Matthias Rohmer, Josh Woodward.
+
+### What's New in Gemini API, Google AI Studio and Google Antigravity (Google I/O 2026 Recap)
+
+- **URL:** [youtube.com/watch?v=98bQUQUEEJs](https://www.youtube.com/watch?v=98bQUQUEEJs)
+- **Channel:** Google for Developers
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 1,192,900
+- **Signal:** High-impact recap covering AI developer announcements from Google I/O 2026 with extensive Antigravity coverage, including ecosystem updates for building, shipping, and scaling with agents.
+
+### 3 New Chrome Features Announced at Google I/O 2026
+
+- **URL:** [youtube.com/watch?v=WGQbiztmSNw](https://www.youtube.com/watch?v=WGQbiztmSNw)
+- **Channel:** Google for Developers
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 935,985
+- **Signal:** Covers Modern Web Guidance for coding agents and Chrome DevTools for agents — two key agent-facing features announced alongside Antigravity at I/O 2026.
+
+### Developer Keynote (Google I/O '26) — American Sign Language
+
+- **URL:** [youtube.com/watch?v=KPYtmPz5pbU](https://www.youtube.com/watch?v=KPYtmPz5pbU)
+- **Channel:** Google for Developers
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 7,503
+- **Signal:** ASL-accessible version of the Developer Keynote covering Antigravity 2.0 platform, Android integration, and Chrome agent tools. Useful for accessibility-focused content curation.
+
+### What's New in Android (Google I/O 2026 Recap)
+
+- **URL:** [youtube.com/watch?v=s7ssP0U7QkQ](https://www.youtube.com/watch?v=s7ssP0U7QkQ)
+- **Channel:** Google for Developers
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 1,179,182
+- **Signal:** Covers Android app development evolution in the agentic coding era — directly relevant as Antigravity now supports Android development, a key surface area for the platform.
+
+### How to Create a Full-Stack App with Google AI Studio
+
+- **URL:** [youtube.com/watch?v=fFjYOvQtN-o](https://www.youtube.com/watch?v=fFjYOvQtN-o)
+- **Channel:** Google for Developers
+- **Duration:** N/A
+- **Published:** 12 May 2026
+- **Views:** 7,497
+- **Signal:** Demonstrates full-stack development using Google AI Studio. Relevant as AI Studio is a companion tool to Antigravity in the broader agentic development ecosystem.
+
+## Google Cloud Tech
+
+### From the I/O Main Stage to the Terminal
+
+- **URL:** [youtube.com/watch?v=7mSRlmKmlLE](https://www.youtube.com/watch?v=7mSRlmKmlLE)
+- **Channel:** Google Cloud Tech
+- **Duration:** N/A
+- **Published:** 21 May 2026
+- **Views:** 1,670
+- **Signal:** Live post-keynote coding session taking I/O announcements directly to the terminal. Covers Agent Development Kit, Firebase, Gemini Enterprise, and CLI — hands-on follow-up to the keynote with real-time demos by Tilde Thurium, Greg Baugues, Ajeet Mirwani, and others.
+
+### Stop Over-Engineering Your AI Dev Setup and Just Start
+
+- **URL:** [youtube.com/watch?v=nupw_OHAL9I](https://www.youtube.com/watch?v=nupw_OHAL9I)
+- **Channel:** Google Cloud Tech
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 842
+- **Signal:** Aja Hammerly and Richard Seroter discuss how Google AI Studio, Antigravity, and Stitch transform the cloud computing landscape. Covers agentic workflows, Developer Knowledge API, and overcoming framework intimidation for backend developers.
+
+### Stop Building Slow AI: Optimizing Multi-Agent Systems for Production
+
+- **URL:** [youtube.com/watch?v=ge5cLd8uics](https://www.youtube.com/watch?v=ge5cLd8uics)
+- **Channel:** Google Cloud Tech
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 317
+- **Signal:** Casey West and Ivan Ardini break down multi-agent architecture patterns for production use. Includes a buildable Multi-Agent Marathon Planner with ADK and A2A. Relevant for engineers building agent-based workflows with Antigravity.
+
+### The Future of Cloud AI: Mastering MCP Servers, Gemini, and Agentic Workflows
+
+- **URL:** [youtube.com/watch?v=-FRomcsclxw](https://www.youtube.com/watch?v=-FRomcsclxw)
+- **Channel:** Google Cloud Tech
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 2,628
+- **Signal:** Explores high-scale agentic AI-powered simulation sandbox covering MCP servers, Agent Development Kit (ADK), and Gemini integration. Includes codelabs and demo repos for building ADK agents with skills and tools.
+
+### Dynamic Firebase Skills: Architecting Agent-Ready Codebases
+
+- **URL:** [youtube.com/watch?v=urBML_2BbD8](https://www.youtube.com/watch?v=urBML_2BbD8)
+- **Channel:** Google Cloud Tech
+- **Duration:** N/A
+- **Published:** 19 May 2026
+- **Views:** 140
+- **Signal:** Rody Davis demonstrates Firebase agent skills for architecting agent-ready codebases. Covers GitHub agent skills, AI Agent Skills codelab, and practical patterns for AI-powered development.
+
+### No Design Skills? Use This Free AI-Powered Design Tool from Google (The Agent Factory)
+
+- **URL:** [youtube.com/watch?v=hNHE301qF1A](https://www.youtube.com/watch?v=hNHE301qF1A)
+- **Channel:** Google Cloud Tech
+- **Duration:** N/A
+- **Published:** 11 May 2026
+- **Views:** 4,391
+- **Signal:** David East walks through Stitch, Google Labs' AI-powered UI generation tool. Covers Design.md for AI design, Gemini CLI + Stitch MCP Server for extracting HTML and Tailwind CSS. Relevant as Stitch is part of the Antigravity ecosystem for frontend development.
