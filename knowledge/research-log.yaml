@@ -477,3 +477,13 @@ entries:
   outcome: "note-created"
   source: "https://google-gemini.github.io/gemini-cli/docs/core/tools-api.html"
   file: "knowledge/notes/antigravity-2.0-sdk-core-architecture.md"
+- lead: "Antigravity 2.0 transition"
+  date: 2026-05-23
+  outcome: "note-created"
+  source: "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
+  file: "knowledge/notes/antigravity-transition-guide.md"
+- lead: "Antigravity 2.0 transition"
+  date: 2026-05-23
+  outcome: "note-created"
+  source: "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
+  file: "knowledge/notes/antigravity-transition-guide.md"
