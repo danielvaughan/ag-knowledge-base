@@ -487,3 +487,14 @@ entries:
   outcome: "note-created"
   source: "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
   file: "knowledge/notes/antigravity-transition-guide.md"
+- lead: "Antigravity 2.0 Overview"
+  date: 2026-05-23
+  outcome: "note-created"
+  source: "https://google-gemini.github.io/gemini-cli/docs/"
+  file: "knowledge/notes/antigravity-2.0.md"
+
+- lead: "Gemini CLI Reference"
+  date: 2026-05-23
+  outcome: "note-created"
+  source: "https://google-gemini.github.io/gemini-cli/docs/cli/commands.html"
+  file: "knowledge/notes/gemini-cli.md"
