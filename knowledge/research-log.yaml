@@ -467,3 +467,13 @@ entries:
   - "Gemini CLI Skills System — agent-tui and tui-tester" (high)
   - "Session Invocation Architecture" (high)
   - "v0.44.0 Nightly Updates (updated)" (medium)
+- lead: "Antigravity 2.0 SDK/Core Architecture"
+  date: 2026-05-22
+  outcome: "note-created"
+  source: "https://google-gemini.github.io/gemini-cli/docs/core/tools-api.html"
+  file: "knowledge/notes/antigravity-2.0-sdk-core-architecture.md"
+- lead: "Antigravity 2.0 SDK/Core Architecture"
+  date: 2026-05-22
+  outcome: "note-created"
+  source: "https://google-gemini.github.io/gemini-cli/docs/core/tools-api.html"
+  file: "knowledge/notes/antigravity-2.0-sdk-core-architecture.md"
