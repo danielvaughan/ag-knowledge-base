@@ -503,3 +503,8 @@ entries:
   outcome: "note-created"
   source: "https://google-gemini.github.io/gemini-cli/docs/changelogs/"
   file: "knowledge/notes/antigravity-2.0-transition-roadmap.md"
+- lead: "GitHub Releases Scan"
+  date: 2026-05-23
+  outcome: "no-new-leads"
+  source: "https://github.com/google-gemini/gemini-cli/releases"
+  file: "knowledge/research-log.yaml"
