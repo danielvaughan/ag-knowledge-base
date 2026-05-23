@@ -498,3 +498,8 @@ entries:
   outcome: "note-created"
   source: "https://google-gemini.github.io/gemini-cli/docs/cli/commands.html"
   file: "knowledge/notes/gemini-cli.md"
+- lead: "Antigravity 2.0 Transition/Roadmap"
+  date: 2026-05-23
+  outcome: "note-created"
+  source: "https://google-gemini.github.io/gemini-cli/docs/changelogs/"
+  file: "knowledge/notes/antigravity-2.0-transition-roadmap.md"
