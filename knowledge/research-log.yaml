@@ -508,3 +508,18 @@ entries:
   outcome: "no-new-leads"
   source: "https://github.com/google-gemini/gemini-cli/releases"
   file: "knowledge/research-log.yaml"
+- lead: "Single Executable Application (SEA)"
+  date: 2026-05-23
+  outcome: "note-created"
+  source: "https://google-gemini.github.io/gemini-cli/docs/npm.html"
+  file: "knowledge/notes/single-executable-application-sea.md"
+- lead: "Single Executable Application (SEA)"
+  date: 2026-05-23
+  outcome: "note-created"
+  source: "https://google-gemini.github.io/gemini-cli/docs/npm.html"
+  file: "knowledge/notes/single-executable-application-sea.md"
+- lead: "Single Executable Application (SEA)"
+  date: 2026-05-23
+  outcome: "note-created"
+  source: "https://google-gemini.github.io/gemini-cli/docs/npm.html"
+  file: "knowledge/notes/single-executable-application-sea.md"
