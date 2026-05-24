@@ -523,3 +523,18 @@ entries:
   outcome: "note-created"
   source: "https://google-gemini.github.io/gemini-cli/docs/npm.html"
   file: "knowledge/notes/single-executable-application-sea.md"
+- lead: "Skills System (agent-tui, tui-tester)"
+  date: 2026-05-24
+  outcome: "note-created"
+  source: "knowledge/notes/36-release-notes-v044-nightly-20260521.md"
+  file: "knowledge/notes/skills-system.md"
+- lead: "Session Invocation API"
+  date: 2026-05-24
+  outcome: "note-created"
+  source: "knowledge/notes/36-release-notes-v044-nightly-20260521.md"
+  file: "knowledge/notes/session-invocation-api.md"
+- lead: "External Editor Support"
+  date: 2026-05-24
+  outcome: "note-created"
+  source: "knowledge/notes/36-release-notes-v044-nightly-20260521.md"
+  file: "knowledge/notes/external-editor-support.md"
