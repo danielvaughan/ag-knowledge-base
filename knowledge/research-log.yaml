@@ -538,3 +538,7 @@ entries:
   outcome: "note-created"
   source: "knowledge/notes/36-release-notes-v044-nightly-20260521.md"
   file: "knowledge/notes/external-editor-support.md"
+- date: 2026-05-24
+  video: https://www.youtube.com/watch?v=zEMXCoqJodE
+  status: completed
+  notes: Processed via yt-dlp fallback. Description extracted.
